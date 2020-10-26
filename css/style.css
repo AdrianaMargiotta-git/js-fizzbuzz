@@ -29,6 +29,23 @@ body{
   font-family: 'Indie Flower', cursive;
 }
 
+.format{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+li{
+  text-align: center;
+  height: 15%;
+  width: 8%;
+  border: 1.50px dotted coral;
+  background-color: #FFDEAD;
+}
+
 h1 {
   align-self: center;
   font-family: 'Henny Penny', cursive;
